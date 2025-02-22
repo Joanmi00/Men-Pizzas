@@ -23,6 +23,7 @@ function mostrarPizzas(pizzas) {
         pizzaElemento.setAttribute("precio", pizza.preu);
         pizzaElemento.setAttribute("imagen", imagenPizza);
         pizzaElemento.setAttribute("desc", pizza.desc);
+        pizzaElemento.setAttribute("alergens", pizza.alergens);
 
         menu.appendChild(pizzaElemento);
     });
